@@ -5,6 +5,7 @@ from .backend import rnn, learning_phase_scope
 from .generic_utils import serialize_function, deserialize_function
 from keras.engine.base_layer import Node,_collect_previous_mask, _collect_input_shape
 from keras import backend as K
+from keras import activations
 import inspect
 
 
