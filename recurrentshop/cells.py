@@ -4,6 +4,7 @@ from keras import constraints
 from keras import regularizers
 from keras import activations
 from keras.layers import *
+from keras import backend as K
 from .engine import RNNCell
 
 
